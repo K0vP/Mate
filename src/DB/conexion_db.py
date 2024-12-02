@@ -1,8 +1,8 @@
 import mysql.connector
 def conectar_bd():
     return mysql.connector.connect(
-        host="localhost",
+        host="127.0.0.1",
         user="root",
-        password="tu_contraseña",
+        password="",
         database="worksync"
     )

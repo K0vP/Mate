@@ -1,8 +1,22 @@
-la carpeta assets es donde estan contenidad la imagenes en caso de usar html y eso
-la carpeta src es el "backend"
-    la carperta auth es donde se autentica el usuario o "iniciar sesión"
-    la carpeta models es para las clases en teoria
-    la carpeta export es donde esta la funcion para exportar archivo a (csv, pdf, etc.) si es el caso
-    la carpeta service es donde esta la logica (validaciones, asignaciones, etc.)
-    la carpeta config es donde estan las constantes y configuraciones en general
-    la carpeta database es para todo lo que tiene que ver con base de datos
+# Documentación del Proyecto
+
+## Estructura de Carpetas
+
+- **assets**: Contiene las imágenes en caso de usar HTML.
+- **frontend**: para la pagina si es el caso
+    - **html**: para el orden de la pagina
+    - **css**: para el diseño de la pagina
+- **src**: Contiene el "backend" del proyecto.
+  - **auth**: Autenticación de usuario o "iniciar sesión".
+  - **models**: Clases y modelos de datos.
+  - **export**: Funciones para exportar archivos (CSV, PDF, etc.).
+  - **service**: Lógica de negocio (validaciones, asignaciones, etc.).
+  - **config**: Constantes y configuraciones generales.
+  - **database**: Todo lo relacionado con la base de datos.
+  - **visualizar**: Contiene los gráficos y visualizaciones.
+
+## Instrucciones
+
+1. Asegúrate de tener instalado Python y las librerías necesarias.
+2. Ejecuta `subir_excel.py` para seleccionar un archivo Excel.
+3. Usa los scripts en la carpeta `src` para manejar la lógica del backend.

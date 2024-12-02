@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Estadísticas</title>
+</head>
+<body>
+    <h1>Estadísticas de Cumplimiento de Horas</h1>
+    {% if img_base64 %}
+        <h2>Gráfico de Cumplimiento de Horas</h2>
+        <img src="data:image/png;base64,{{ img_base64 }}" alt="Gráfico de Cumplimiento de Horas">
+    {% else %}
+        <p>No hay datos para mostrar.</p>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('menu') }}">Volver al Menú</a>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Estadísticas</title>
+</head>
+<body>
+    <h1>Estadísticas de Cumplimiento de Horas</h1>
+    {% if img_base64 %}
+        <h2>Gráfico de Cumplimiento de Horas</h2>
+        <img src="data:image/png;base64,{{ img_base64 }}" alt="Gráfico de Cumplimiento de Horas">
+    {% else %}
+        <p>No hay datos para mostrar.</p>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('menu') }}">Volver al Menú</a>
+</body>
+</html>
