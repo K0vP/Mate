@@ -42,3 +42,4 @@ def graficar_cumplimiento_horas():
         return None
     finally:
         conn.close()
+
